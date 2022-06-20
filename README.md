@@ -7,5 +7,11 @@ Este repositorio contiene las instrucciones para obtener el reconocimiento facia
 3. colocar la resolucion de  "Resolution QVGA(320X240)"
 4. Instalar la biblioteca de Deepface
     https://github.com/serengil/deepface   no es necesario clonarlo
-    $pip install deepface
+    
+    para ello se requiere Python3
+    comprobar la instalacion
+         python3 --version
+         se requiere version 3.9 o inferior
+     
+    $pip install deepface   requiere al menos 2GB de espacio en disco duro
 5. 
