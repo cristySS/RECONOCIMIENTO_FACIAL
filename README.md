@@ -16,4 +16,17 @@ Este repositorio contiene las instrucciones para obtener el reconocimiento facia
     $pip install deepface   
     
     requiere al menos 2GB de espacio en disco duro
-5. 
+    si el pip no esta instalado,ejecutar
+          sudo apt install python3-pip
+5. instalar el plugin de python para Visual Studio Code  solo "Python"
+6. correr ejemplo de caractaristicas faciales
+    crear un directorio para el ejemplo
+          obtener la IP de la camara y tomar una fotografia de 320X240 pixeles
+               acceder al IP de la camara
+               tomar la foto
+               sobre la foto dar clic derecho "Save image As..." guardar la imagen ".jpg"
+    crear un archivo facialr.py
+         from deepface import DeepFace
+              obj = DeepFace.analyze(img_path = "hugo1.jpg", actions = ['age', 'gender', 'race', 'emotion'])
+         print (obj)
+7. 
