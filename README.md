@@ -13,5 +13,7 @@ Este repositorio contiene las instrucciones para obtener el reconocimiento facia
          python3 --version
          se requiere version 3.9 o inferior
      
-    $pip install deepface   requiere al menos 2GB de espacio en disco duro
+    $pip install deepface   
+    
+    requiere al menos 2GB de espacio en disco duro
 5. 
